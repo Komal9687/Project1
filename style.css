@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: grey;
+    border-radius: 3px;
+    margin: 1px 1px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 7px 7px;
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+.navbar ul {
+    overflow: auto;
+    padding: 10px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 5px 5px;
+    color: black;
+}
+
+.tab {
+    padding-top: 24px;
+    font-size: 20px;
+    
+}
+
+table, tr, th, td {
+    padding: 12px 24px 12px 24px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 19px;
+    text-align: center;
+  }
+.tab th {
+    background-color: rgb(128, 157, 182);
+}
+
+
+/* LOGIN */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+#login {
+     text-align: center; 
+     background-color: slategrey;
+     margin: 70px;
+    padding: 40px;
+    height: 250px;
+    width: 358px;
+    position: absolute;
+    align-items: center;
+    top: 20px;
+    right: 260px;
+    
+    /*width: 350px;
+     top: 50%; 
+    right: 50%;
+    position: absolute; */
+    
+}
+ #login .username h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    /* margin: 40px 0; */
+    text-align: center;
+}
+#login p {
+    font-size: 20px;
+    margin: 15px 0;
+    color: black;
+}
+
+/*#login input {
+    font-size: 16px;
+} */
+#login .btn{
+    align-items: center;
+    margin: 30px;
+
+    
+    
+    
+}
+#login .btn :hover {
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    border: 1px solid black;
+    /* border-color: 1px solid black; */
+}
